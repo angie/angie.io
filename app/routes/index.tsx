@@ -1,3 +1,9 @@
 export default function Index() {
-  return <h1 className="text-3xl font-bold underline">hiya 👋</h1>;
+  return (
+    <div className="h-screen flex items-center">
+      <main className="px-[50px] md:px-[100px]">
+        <h1 className="text-6xl font-bold">hiya 👋</h1>
+      </main>
+    </div>
+  )
 }
