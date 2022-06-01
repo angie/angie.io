@@ -1,3 +1,4 @@
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa"
 import memoji from "../images/memoji.png"
 
 export default function Index() {
@@ -14,7 +15,7 @@ export default function Index() {
                 className="min-h-32 min-w-32 max-h-32 max-w-32"
               />
             </span>
-            <h1 className="text-pink-100 font-bold text-4xl">
+            <h1 className="font-bold text-4xl">
               Hiya, I'm Angie Merryweather 👋
             </h1>
             <p>
@@ -32,6 +33,29 @@ export default function Index() {
               </a>{" "}
               me to get in touch, or connect via social.
             </p>
+          </div>
+          <div className="py-10 flex flex-row space-x-4">
+            <a
+              href="https://github.com/angie"
+              rel="nofollow noreferrer"
+              target="_blank"
+            >
+              <FaGithub />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/angie-merryweather/"
+              rel="nofollow noreferrer"
+              target="_blank"
+            >
+              <FaLinkedin />
+            </a>
+            <a
+              href="https://twitter.com/amerry"
+              rel="nofollow noreferrer"
+              target="_blank"
+            >
+              <FaTwitter />
+            </a>
           </div>
         </main>
       </div>
