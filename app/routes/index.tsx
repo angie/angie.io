@@ -15,7 +15,7 @@ export default function Index() {
                 className="min-h-28 min-w-28 max-h-28 max-w-28"
               />
             </div>
-            <h1 className="font-bold text-4xl">
+            <h1 className="font-bold text-4xl pt-2">
               Hiya, I'm Angie Merryweather{" "}
               <span className="wave hover:wave">👋</span>
             </h1>
