@@ -8,13 +8,13 @@ export default function Index() {
       <div className="min-h-screen lg:w-2/3 flex">
         <main className="px-[50px] md:px-[100px] py-[50px] md:py-[100px] flex flex-col">
           <div className="flex flex-col items-start space-y-5">
-            <span className="h-32 w-32 bg-pink-600 rounded-full mr-4 memoji">
+            <div className="h-28 w-28 bg-pink-600 rounded-full mr-4 memoji">
               <img
                 src={memoji}
                 alt="angie's memoji"
-                className="min-h-32 min-w-32 max-h-32 max-w-32"
+                className="min-h-28 min-w-28 max-h-28 max-w-28"
               />
-            </span>
+            </div>
             <h1 className="font-bold text-4xl">
               Hiya, I'm Angie Merryweather 👋
             </h1>
