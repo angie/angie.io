@@ -16,12 +16,13 @@ export default function Index() {
               />
             </div>
             <h1 className="font-bold text-4xl">
-              Hiya, I'm Angie Merryweather 👋
+              Hiya, I'm Angie Merryweather{" "}
+              <span className="wave hover:wave">👋</span>
             </h1>
             <p>
-              I'm a freelance software engineer specialising in React and
-              frontend tooling. I love cultivating healthy, high empathy teams
-              and building great online experiences.
+              I'm a freelance frontend software engineer specialising in making
+              Jamstack sites with React. I love cultivating healthy, high
+              empathy teams and building great online experiences.
             </p>
             <p>
               You can{" "}
