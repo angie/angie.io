@@ -20,8 +20,8 @@ export default function Index() {
             </h1>
             <p>
               I'm a freelance software engineer specialising in React and
-              frontend tooling. I love building great online experiences for
-              people and cultivating healthy, high empathy teams.
+              frontend tooling. I love cultivating healthy, high empathy teams
+              and building great online experiences.
             </p>
             <p>
               You can{" "}
