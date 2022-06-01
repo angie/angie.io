@@ -22,7 +22,7 @@ export default function Index() {
               frontend tooling.
             </p>
             <p>
-              I love building great online experiences for people, and
+              I love building great online experiences for people and
               cultivating healthy teams who deliver value with the trust of our
               stakeholders.
             </p>
