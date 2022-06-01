@@ -704,6 +704,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px) {
+  .md\:w-10 {
+    width: 2.5rem;
+  }
+
+  .md\:w-2\/3 {
+    width: 66.666667%;
+  }
+
   .md\:px-\[100px\] {
     padding-left: 100px;
     padding-right: 100px;
@@ -712,5 +720,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:py-\[100px\] {
     padding-top: 100px;
     padding-bottom: 100px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:w-2\/3 {
+    width: 66.666667%;
   }
 }

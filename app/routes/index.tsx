@@ -4,7 +4,7 @@ export default function Index() {
   return (
     // fixes h-screen being longer than viewport on mobile
     <div className="absolute inset-0">
-      <div className="min-h-screen flex items-center">
+      <div className="min-h-screen lg:w-2/3 flex">
         <main className="px-[50px] md:px-[100px] py-[50px] md:py-[100px] flex flex-col">
           <div className="flex flex-col items-start space-y-5">
             <span className="h-32 w-32 bg-pink-600 rounded-full mr-4 memoji">
@@ -19,12 +19,8 @@ export default function Index() {
             </h1>
             <p>
               I'm a freelance software engineer specialising in React and
-              frontend tooling.
-            </p>
-            <p>
-              I love building great online experiences for people and
-              cultivating healthy teams who deliver value with the trust of our
-              stakeholders.
+              frontend tooling. I love building great online experiences for
+              people and cultivating healthy, high empathy teams.
             </p>
             <p>
               You can{" "}
