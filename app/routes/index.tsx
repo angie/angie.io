@@ -6,7 +6,7 @@ export default function Index() {
     // fixes h-screen being longer than viewport on mobile
     <div className="absolute inset-0">
       <div className="min-h-screen lg:w-2/3 flex">
-        <main className="px-6 sm:px-12 md:px-24 py-24 md:py-24 flex flex-col">
+        <main className="px-6 sm:px-12 md:px-24 py-6 sm:py-12 md:py-24 flex flex-col">
           <div className="flex flex-col items-start space-y-5">
             <div className="h-28 w-28 bg-pink-600 rounded-full mr-4 memoji">
               <img
