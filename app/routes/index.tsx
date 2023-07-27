@@ -20,9 +20,9 @@ export default function Index() {
               <span className="wave hover:wave">👋</span>
             </h1>
             <p>
-              I'm a freelance frontend software engineer specialising in making
-              Jamstack sites with React and Node.js. I love building great
-              online experiences and cultivating healthy, high empathy teams.
+              I'm a consultant staff software engineer specialising in
+              TypeScript and React. I love building great online experiences and
+              cultivating healthy, high empathy teams.
             </p>
             <p>
               You can{" "}
