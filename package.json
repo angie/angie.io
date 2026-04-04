@@ -10,7 +10,7 @@
     "check": "astro check"
   },
   "dependencies": {
-    "@fontsource/inter": "^5.2.8",
+    "@fontsource/instrument-serif": "^5.2.8",
     "astro": "^5.16.0"
   },
   "devDependencies": {
