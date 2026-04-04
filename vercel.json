@@ -2,6 +2,6 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "astro",
   "installCommand": "corepack enable && pnpm install",
-  "buildCommand": "pnpm build",
+  "buildCommand": "corepack pnpm build",
   "outputDirectory": "dist"
 }
