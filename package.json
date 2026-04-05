@@ -10,7 +10,6 @@
     "check": "astro check"
   },
   "dependencies": {
-    "@fontsource/space-grotesk": "^5.2.10",
     "astro": "^5.16.0"
   },
   "devDependencies": {
