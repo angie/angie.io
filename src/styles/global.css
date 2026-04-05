@@ -20,7 +20,7 @@ body {
   background: #171717;
   color: #a1a1aa;
   font-family: 'Departure Mono', monospace;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.5;
 }
 
@@ -66,7 +66,7 @@ main {
 h1 {
   margin: 0;
   font-family: 'Departure Mono', monospace;
-  font-size: clamp(1.75rem, 2.4vw, 2rem);
+  font-size: clamp(1.5rem, 5.5vw, 2rem);
   font-weight: 400;
   color: #fff;
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.45), 0 0 25px rgba(255, 255, 255, 0.2);
@@ -95,7 +95,7 @@ a:hover {
 .social {
   display: flex;
   gap: 1rem;
-  padding-block: 2.5rem;
+  padding-top: 1.75rem;
 }
 
 .social a {
@@ -129,12 +129,18 @@ a:hover {
 
 .whimsy-controls {
   display: flex;
-  gap: 0.75rem;
-  align-items: baseline;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+  margin-top: 0.5rem;
 }
 
 .snap-back {
   transition: opacity 0.3s ease;
+}
+
+.whimsy-controls .snap-back[style*='display:none'] {
+  display: none !important;
 }
 
 .snap-back-btn {
@@ -156,6 +162,7 @@ a:hover {
 }
 
 .whimsy-divider {
+  display: none;
   color: #fff;
   user-select: none;
 }
@@ -210,8 +217,23 @@ a:hover {
 }
 
 @media (min-width: 640px) {
+  body {
+    font-size: 1.25rem;
+  }
+
   main {
     padding: 3rem;
+  }
+
+  .whimsy-controls {
+    flex-direction: row;
+    gap: 0.75rem;
+    align-items: baseline;
+    margin-top: 0;
+  }
+
+  .whimsy-divider {
+    display: inline;
   }
 }
 
