@@ -20,7 +20,7 @@ body {
   background: #171717;
   color: #a1a1aa;
   font-family: 'Departure Mono', monospace;
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 
@@ -278,7 +278,7 @@ a:hover {
 
 @media (min-width: 640px) {
   body {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
 
   main {
