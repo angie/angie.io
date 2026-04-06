@@ -30,6 +30,7 @@ import '../styles/global.css'
             <ul>
               <li>working with nice people</li>
               <li>event driven architectures</li>
+              <li>DORA metrics</li>
               <li>making the right thing (then making the thing right)</li>
             </ul>
 
@@ -173,7 +174,7 @@ import '../styles/global.css'
                 const prefix = 'working with 100x rockstars on '
                 typeText(striking, prefix, () => {
                   // insert a separate span for just the horror word
-                  striking.innerHTML = `${prefix}<span class="horror-word"></span>.`
+                  striking.innerHTML = `${prefix}<span class="horror-word"></span>`
                   const horrorEl = striking.querySelector('.horror-word')
                   typeText(horrorEl, horror, () => {
                     whimsyMode = true
