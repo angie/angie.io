@@ -56,6 +56,8 @@ main {
 .memoji {
   height: 7rem;
   width: 7rem;
+  flex: 0 0 7rem;
+  aspect-ratio: 1;
   border-radius: 9999px;
   overflow: hidden;
   display: grid;
@@ -262,7 +264,12 @@ a:hover {
     gap: 0.75rem;
   }
 
-  .memoji,
+  .memoji {
+    height: 3.5rem;
+    width: 3.5rem;
+    flex-basis: 3.5rem;
+  }
+
   .memoji img {
     height: 3.5rem;
     width: 3.5rem;
