@@ -80,6 +80,7 @@ p {
 
 .rainbow-whimsy {
   display: inline-block;
+  white-space: nowrap;
   font-weight: 400;
   background: linear-gradient(90deg, #ff5fa2, #ffd166, #7cf29a, #6ecbff, #b794ff, #ff5fa2);
   background-size: 300% auto;
