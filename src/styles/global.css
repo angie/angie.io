@@ -252,6 +252,14 @@ a:hover {
   100% { transform: rotate(0deg); }
 }
 
+@media (max-width: 639px) {
+  .memoji,
+  .memoji img {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+}
+
 @media (min-width: 640px) {
   body {
     font-size: 1.25rem;
