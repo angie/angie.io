@@ -13,20 +13,33 @@ import '../styles/global.css'
       <div class="layout">
         <main>
           <div class="content">
-            <div class="memoji">
-              <img src="/images/memoji.png" alt="angie's memoji" />
+            <div class="hero-header">
+              <div class="memoji">
+                <img src="/images/pfp-small.png" alt="Angie Merryweather" />
+              </div>
+
+              <h1>
+                Hiya, I'm Angie Merryweather <span class="wave">👋</span>
+              </h1>
             </div>
 
-            <h1>
-              Hiya, I'm Angie Merryweather <span class="wave">👋</span>
-            </h1>
+            <p>
+              I'm a freelance software engineer from Manchester, UK. I make stuff for the web, usually in TypeScript and React. I dig:
+            </p>
+
+            <ul>
+              <li>working with nice people</li>
+              <li>event driven architectures</li>
+              <li>DORA metrics</li>
+              <li>making the right thing (then making the thing right)</li>
+            </ul>
 
             <p>
-              I'm a consultant staff software engineer specialising in TypeScript and React. I love building great online experiences and <span id="whimsy-target">cultivating healthy, high empathy teams.</span>
+              Oh, and who could forget <span id="whimsy-target" class="rainbow-whimsy">surprise and delight</span>? And delivering stakeholder value!! <span class="money-line" aria-hidden="true">📈 💸</span> I like those too.
             </p>
 
             <p>
-              You can <a href="mailto:hi@angie.io">email</a> me to get in touch, or connect via social.
+              You can contact me for work stuff via <a href="mailto:hi@angie.io">email</a> or the social links below.
             </p>
           </div>
 
@@ -48,6 +61,7 @@ import '../styles/global.css'
     </div>
 
     <script>
+      // @ts-nocheck
       const horrors = [
         'ad tech', 
         'NFTs', 
@@ -160,7 +174,7 @@ import '../styles/global.css'
                 const prefix = 'working with 100x rockstars on '
                 typeText(striking, prefix, () => {
                   // insert a separate span for just the horror word
-                  striking.innerHTML = `${prefix}<span class="horror-word"></span>.`
+                  striking.innerHTML = `${prefix}<span class="horror-word"></span>`
                   const horrorEl = striking.querySelector('.horror-word')
                   typeText(horrorEl, horror, () => {
                     whimsyMode = true
