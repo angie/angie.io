@@ -51,6 +51,7 @@ main {
   height: 7rem;
   width: 7rem;
   border-radius: 9999px;
+  overflow: hidden;
   display: grid;
   place-items: center;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -61,6 +62,9 @@ main {
 .memoji img {
   height: 7rem;
   width: 7rem;
+  border-radius: 9999px;
+  object-fit: cover;
+  object-position: center;
 }
 
 h1 {
@@ -79,8 +83,7 @@ p {
 }
 
 .rainbow-whimsy {
-  display: inline-block;
-  white-space: nowrap;
+  display: inline;
   font-weight: 400;
   background: linear-gradient(90deg, #ff5fa2, #ffd166, #7cf29a, #6ecbff, #b794ff, #ff5fa2);
   background-size: 300% auto;
