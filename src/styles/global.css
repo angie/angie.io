@@ -78,6 +78,22 @@ p {
   max-width: 60ch;
 }
 
+.rainbow-whimsy {
+  display: inline-block;
+  font-weight: 400;
+  background: linear-gradient(90deg, #ff5fa2, #ffd166, #7cf29a, #6ecbff, #b794ff, #ff5fa2);
+  background-size: 300% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 0 0 14px rgba(255, 255, 255, 0.18);
+  animation: rainbow-shimmer 2.2s linear infinite, pulse-glow 1.7s ease-in-out infinite;
+}
+
+.money-line {
+  white-space: nowrap;
+}
+
 a {
   color: #fff;
   text-underline-offset: 2px;
@@ -203,6 +219,22 @@ a:hover {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
+}
+
+@keyframes rainbow-shimmer {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 300% 50%; }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    filter: drop-shadow(0 0 0.15rem rgba(255, 255, 255, 0.15));
+    transform: scale(1);
+  }
+  50% {
+    filter: drop-shadow(0 0 0.55rem rgba(255, 255, 255, 0.35));
+    transform: scale(1.03);
+  }
 }
 
 @keyframes wave-animation {
